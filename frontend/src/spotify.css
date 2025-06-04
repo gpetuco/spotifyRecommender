@@ -1,0 +1,97 @@
+/* spotify.css */
+body, html {
+  background-color: #191414;
+  color: white;
+  font-family: "Spotify Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 480px;
+  margin: 5rem auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #1DB954;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input.spotify-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #282828;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+input.spotify-input::placeholder {
+  color: #b3b3b3;
+}
+
+input.spotify-input:focus {
+  background-color: #1DB954;
+  color: black;
+}
+
+button.spotify-button {
+  width: 100%;
+  background-color: #1DB954;
+  color: black;
+  padding: 0.75rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+button.spotify-button:disabled {
+  background-color: #535353;
+  cursor: not-allowed;
+  color: #ccc;
+}
+
+button.spotify-button:hover:not(:disabled) {
+  background-color: #1AA34A;
+}
+
+.card {
+  background-color: #282828;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card:hover {
+  background-color: #1DB954;
+  color: black;
+}
+
+.card p.name {
+  font-weight: 600;
+  margin: 0;
+}
+
+.card p.artists {
+  margin: 0;
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.scroll-area {
+  max-height: 240px;
+  overflow-y: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #1DB954;
+  padding: 0.5rem;
+}
