@@ -1,11 +1,5 @@
 # MACHINE LEARNING - RECOMENDADOR DE MÚSICAS
 
-## Nomes:
-
-- Gabriel Frigo Petuco - 22280417
-- Leonardo Forner - 21100996
-- Marco Ames - 17103283
-
 ## Procedimentos para executar:
 
 O servidor e o cliente estão disponíveis online pela plataforma Render. Você pode utilizá-los das seguintes formas:
